@@ -33,7 +33,8 @@ def get_cookie_via_webview(width, height):
     def callback(js_cookie):
         nonlocal cookie
         cookie = js_cookie.strip()
-        app.quit()
+        view.close()          # Close the webview window
+        app.quit()            # Quit the Qt application
 
     view.loadFinished.connect(on_load_finished)
     view.load(QUrl(

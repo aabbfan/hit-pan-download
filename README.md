@@ -2,6 +2,9 @@
 
 A command-line interactive tool for HIT (Harbin Institute of Technology) cloud storage (pan.hit.edu.cn).  
 It allows you to list, download, upload (≤1GB), and delete files using cookie authentication.
+![DownloadCommandPic](./figures/download.gif)
+
+![LoginPagePic](./figures/loginpage.jpg)
 
 ## Features
 
